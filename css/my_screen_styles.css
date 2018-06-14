@@ -1,0 +1,130 @@
+/*this is the beginning of our styling*/
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body{
+font-family: 'Times New Roman', Times, serif;
+}
+
+/*this is my header styling*/
+
+header{
+
+}
+
+nav{
+    background-color:magenta;
+    padding: 5px;
+}
+
+nav li{
+    display: inline;
+    font-size: 15px;
+}
+
+a{
+    color: black;
+    Padding: 20px;
+    
+}
+
+a:hover{
+    color: cornsilk;
+}
+
+/*my section styling*/
+section {
+border: inset black;
+width: 100%;
+height: 700px;
+}
+
+
+
+
+/*this is my footer styling*/
+footer{
+padding: 15px;
+background-color:magenta;
+}
+
+footer p{
+    font-size:10px;
+    text-align: center;
+}
+/*styling my img*/
+img {
+    width: 300px;
+    height: 300px;
+    background-image: url(../images/babe.jpg);
+    background-repeat: no-repeat;
+    text-align: center;
+    }
+
+    .section_home{
+        background: url(https://i.pinimg.com/originals/7f/92/2b/7f922b05fcc6ec81cf1bd1e205d0ca80.gif);
+        height:600px;
+        color:white; text-align:center;
+        background-color: fuchsia;
+        text-align: center;
+        height: 800px;
+        padding: 50px;
+        background-size: cover;
+    }
+
+    .section_about{
+        background-color: #B3B3D7;
+        text-align: center;
+        padding: 50px;
+        height: 800px;
+        font-size: 25px;
+    }
+    .section_portfolio{
+        background-color: fuchsia;
+        text-align: center;
+        padding: 50px;
+        height: 800px;
+    }
+
+    .section_contact{
+        background-color:#B3B3D7;
+        text-align: center;
+        padding: 50px;
+        height: 800px;
+        font-size: 50px;
+    }
+
+    .button {
+        transform: translate(-5%, -5%);
+        -ms-transform: translate(-5%, -5%);
+        left: 25%;
+        background-color: blueviolet;
+        border-radius: 5px;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        margin: 4px 2px;
+        cursor: pointer;
+        position: absolute;
+    
+    }
+    
+    .button1 {font-size: 10px;}
+    .button2 {font-size: 12px;}
+    .button3 {font-size: 16px;}
+
+    h3{
+        font-size: 30px;
+    }
+    h4{
+        font-size: 30px;
+    }
+
+    .jumbotron{
+        background-color: hotpink;
+    }
+    
